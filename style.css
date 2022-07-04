@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: AlmarenaDisplayRegular, sans-serif;
+}
+
+/* Navigation Bar */
+.alt_sch_logo {
+  margin-left: 100px;
+}
+.nav-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.btn-apply {
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  margin-right: 50px;
+}
+
+.btn-apply:hover {
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: 2px -2px 2px black;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+/* rgb(255, 246, 238) */
+
+/* Blue bar */
+.sch_prod_disp {
+  width: 100%;
+  background-color: rgb(103, 114, 229);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* FIRST SECTION */
+.header_content {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 239, 226);
+}
+
+.header-title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.header-para {
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.btn-header_apply {
+  margin-bottom: 50px;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.btn-header_apply:hover {
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: 2px -2px 2px black;
+}
+
+.btn_tuition_payment {
+  width: 370px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  border: transparent;
+  margin-bottom: 60px;
+}
+
+.spanned {
+  color: rgb(103, 114, 229);
+  margin-left: 5px;
+}
+
+.fa-arrow-right {
+  margin-left: 5px;
+}
+
+/* SECOND SECTION */
+#section_2 {
+  text-align: center;
+}
+
+.sect_two_header {
+  margin-top: 80px;
+  font-size: 35px;
+}
+.sect_two_content {
+  margin: 20px 0 50px 0;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.affiliate {
+  margin: 100px 0 20px 0;
+  font-size: 20px;
+}
+
+.aff-logo {
+  margin-right: 30px;
+}
+
+.logo-images {
+  margin-bottom: 30px;
+}
+
+.question {
+  margin-left: 180px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.sect_3_img {
+  margin: 40px 0 50px 180px;
+}
+
+.shaping_future {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.left_side {
+  font-size: 35px;
+}
+
+.right_side {
+  line-height: 28px;
+}
+
+.find_more {
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.find_more:hover {
+  cursor: pointer;
+  background-color: rgb(66, 60, 60);
+  color: white;
+}
+
+/* SECTION FOUR */
+
+#section_four {
+  margin-bottom: 50px;
+}
+
+.content-sect {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+.left-sect4-side h4 {
+  margin-top: 100px;
+}
+
+.male_img {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.right-sect4-side h2 {
+  margin-top: 50px;
+}
+
+.view_sch {
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.view_sch:hover {
+  cursor: pointer;
+  background-color: rgb(66, 60, 60);
+  color: white;
+}
